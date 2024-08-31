@@ -1,0 +1,98 @@
+*{
+    background-color: black;
+    color: aliceblue;
+}
+#first{
+    background-color: black;
+    height: 300px;
+    margin-left: 20px;
+    margin-right: 100px;
+    div{
+        padding-left: 600px;
+        padding-top: 30px;
+     }
+     button{
+        padding-right: 50px;
+        border-width: 0px;
+     }
+     #tri{
+        background-color: orangered;
+        border-radius: 60px;
+        position: static;
+        right:0px;
+        
+     }
+     h1{
+        text-align: center;
+        font-size: 50px;
+     }
+     h3{
+        text-align: center;
+     }
+    
+   
+}
+#second{
+    background-color: white;
+    height: 300px;
+   
+   
+}
+#third{
+    background-color: black;
+    height: 400px;
+    div{
+        margin-left: 300px;
+    }
+
+}
+#inBetween{
+    background-color: white;
+    height: 200px;
+}
+#fourth{
+    background-color:  white;
+
+    height: 750px;
+    div{
+        display: inline;
+        text-align: center;
+        margin-left: 400px;
+        
+        border-radius: 50%;
+        margin-top: 20px;
+    }
+}
+#fifth{
+    background-color: black;
+    height: 400px;
+    h1{
+        text-align: center;
+    }
+    div{
+        display: inline;
+        margin-left: 400px;
+    }
+}
+
+   
+#sixth{
+    background-color: #f8f9fa;
+    height:400px;
+}
+#seven{
+    background-color: black;
+    height:250px;
+    display: flex;
+    font-size: 20px;
+    flex-wrap: wrap;
+    margin: 0px 0px 0px 0px;
+}
+.child {
+    display: inline-block;
+    background: black;
+    margin: 0px 0px 0px 0px;
+    flex-grow: 1;
+    height: 250px;
+    color:aliceblue;
+  }
